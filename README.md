@@ -48,3 +48,7 @@ In the Jupyter notebook I used the following libraries to help with the analysis
 ===
 
 To remove outliers, from some of the columns of the company dataset, I used a technique found on stackoverflow: https://stackoverflow.com/questions/23199796/detect-and-exclude-outliers-in-a-pandas-dataframe
+
+
+Here is the original research article that developed a bankrupty prediction model: Liang D., Lu C.C., Tsai C.F., Shih G.A, Financial ratios and corporate governance indicators in bankruptcy prediction. A comprehensive study
+European Journal of Operational Research 252 (2016), pp. 561-572
