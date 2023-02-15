@@ -3,7 +3,7 @@
 
 # Introduction
 
-This repository contains a Jupyter notebook that analyzes company data from the Taiwan Economic Journal from the years 1999 to 2009 with regard to bankrupty. The dataset, the analysis is based on, contains 6.819 entries (one row for each company) with 93 financial ratios (and 3 binary classifications). From the 6.819 companies, 220 were declared bankrupt (according to a definition of the Taiwanese stock exchange). The analysis is performed in Python.
+This repository contains a Jupyter notebook that analyzes company data from the Taiwan Economic Journal from the years 1999 to 2009 with regard to bankruptcy. The dataset, the analysis is based on, contains 6.819 entries (one row for each company) with 93 financial ratios (and 3 binary classifications). From the 6.819 companies, 220 were declared bankrupt (according to a definition of the Taiwanese stock exchange). The analysis is performed in Python.
 
 # Research Question and Motivation:
 
