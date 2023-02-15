@@ -18,7 +18,11 @@ The motivation of this analysis was to determine whether financial ratios - as u
 
 # Results:
 
-
+1. Only 9 financial ratios correlate with the bankrupty status. Correlation is low (0.25 < abs(correlation) < 0.31. 5 negative and 4 positive correlations
+2. The analysis found 60 very strong (>0.75) correlations between the different financial ratios for the bankrupt companies. However many ratios appear to depict
+the same financial characteristic or vary only slightly from each other with regard to the used financial figures. 
+3. While some of the found key ratios from question #1 differ significantly from the non-bankrupt companies, some show now real difference as it could have been
+expected, e.g. with regard to company debt or liabilties.
 
 # Repository Contents:
 
