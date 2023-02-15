@@ -1,11 +1,11 @@
-"# bankruptcy_datascience"
+# bankruptcy_datascience
 
 
-#Introduction
+# Introduction
 
 This repository contains a Jupyter notebook that analyzes company data from the Taiwan Economic Journal from the years 1999 to 2009 with regard to bankrupty. The dataset, the analysis is based on, contains 6.819 entries (one row for each company) with 93 financial ratios (and 3 binary classifications). From the 6.819 companies, 220 were declared bankrupt (according to a definition of the Taiwanese stock exchange). The analysis is performed in Python.
 
-#Research Question and Motivation:
+# Research Question and Motivation:
 
 The analyis mainly addresses 3 questions:
 
@@ -16,11 +16,11 @@ The analyis mainly addresses 3 questions:
 The motivation of this analysis was to determine whether financial ratios - as used daily for company performance evaluations - are good indicators for company bankruptcy. While the current analysis only examines the dataset statistically a future step would be to develop a regression model that predicts bankruptcy based on financial ratios as input parameters.
 
 
-#Results:
+# Results:
 
 
 
-#Repository Contents:
+# Repository Contents:
 
 The repository only contains 1 Jupyter notebook ("Company_Bankrupty_Analysis.ipynb") and the image files generated in the notebook.
 
