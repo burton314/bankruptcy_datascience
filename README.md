@@ -1,12 +1,11 @@
 "# bankruptcy_datascience"
 
 
-Introduction
-
-#######################################
+#Introduction
 
 This repository contains a Jupyter notebook that analyzes company data from the Taiwan Economic Journal from the years 1999 to 2009 with regard to bankrupty. The dataset, the analysis is based on, contains 6.819 entries (one row for each company) with 93 financial ratios (and 3 binary classifications). From the 6.819 companies, 220 were declared bankrupt (according to a definition of the Taiwanese stock exchange). The analysis is performed in Python.
-Research Question and Motivation:
+
+#Research Question and Motivation:
 
 The analyis mainly addresses 3 questions:
 
@@ -17,26 +16,23 @@ The analyis mainly addresses 3 questions:
 The motivation of this analysis was to determine whether financial ratios - as used daily for company performance evaluations - are good indicators for company bankruptcy. While the current analysis only examines the dataset statistically a future step would be to develop a regression model that predicts bankruptcy based on financial ratios as input parameters.
 
 
-Results:
-
-#######################################
+#Results:
 
 
-Repository Contents:
 
-#######################################
+#Repository Contents:
 
 The repository only contains 1 Jupyter notebook ("Company_Bankrupty_Analysis.ipynb") and the image files generated in the notebook.
 
-Sources:
+# Sources:
 
-#######################################
+## Dataset
 
 The dataset used is from Kaggle and is not included in the repository. The Link is as follows:
 
-https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction/download?datasetVersionNumber=2
+(https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction/download?datasetVersionNumber=2)
 
-===
+## Libraries used
 
 In the Jupyter notebook I used the following libraries to help with the analysis:
 
@@ -45,10 +41,13 @@ In the Jupyter notebook I used the following libraries to help with the analysis
     Seaborn
     Matplotlib (Pyplot)
 
-===
+## References for techniques used
 
-To remove outliers, from some of the columns of the company dataset, I used a technique found on stackoverflow: https://stackoverflow.com/questions/23199796/detect-and-exclude-outliers-in-a-pandas-dataframe
-For horizontal boxplots I used some techniques from: https://seaborn.pydata.org/examples/horizontal_boxplot.html
+To remove outliers, from some of the columns of the company dataset, I used a technique found on stackoverflow: (https://stackoverflow.com/questions/23199796/detect-and-exclude-outliers-in-a-pandas-dataframe)
+
+For horizontal boxplots I used some techniques from: (https://seaborn.pydata.org/examples/horizontal_boxplot.html)
+
+## Original research article mentioned in the dataset
 
 Here is the original research article that developed a bankrupty prediction model: Liang D., Lu C.C., Tsai C.F., Shih G.A, Financial ratios and corporate governance indicators in bankruptcy prediction. A comprehensive study
 European Journal of Operational Research 252 (2016), pp. 561-572
